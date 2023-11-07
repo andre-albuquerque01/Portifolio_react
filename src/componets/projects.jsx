@@ -25,7 +25,7 @@ function Projects() {
                     <h1 className='text-xl'>Ifome</h1>
                     <p className='text-justify'>A case study for the implementation of a digital menu, as with the advancement of technology, there is a need to innovate.</p>
                     <div className="flex justify-start">
-                    <Link to="/ifome#top" className="px-4 py-2  bg-blue-500 text-white rounded-md hover:bg-blue-600">Projects</Link>
+                    <Link to="/ifome" className="px-4 py-2  bg-blue-500 text-white rounded-md hover:bg-blue-600">Projects</Link>
 
                     </div>
                 </div>
