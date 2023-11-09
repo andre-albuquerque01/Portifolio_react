@@ -4,6 +4,7 @@ import Donation from './componets/projects/donation'
 import BookStore from './componets/projects/bookstore'
 import Layout from './componets/layout/layout'
 import LayoutMain from './componets/layout/layoutMain'
+import ApiUser from './componets/projects/apiUser'
 import { useEffect } from 'react'
 
 function ScrollToTop() {
@@ -32,6 +33,7 @@ function Router() {
         <Route path="/ifome" element={<Ifome />}></Route>
         <Route path="/donation" element={<Donation />}></Route>
         <Route path="/bookstore" element={<BookStore />}></Route>
+        <Route path="/apiuser" element={<ApiUser />}></Route>
       </Route>
     </Routes>
   )

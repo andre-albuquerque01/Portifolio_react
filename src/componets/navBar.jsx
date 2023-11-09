@@ -14,7 +14,6 @@ function NavBar() {
             <div className="flex justify-between items-center h-16 border border-b">
                 <div className="flex justify-center items-center text-center w-1/4">
                     <div className="px-3">
-                        <img src={imgPerfil} alt="imagem do individuo" className='rounded-xl w-10' />
                     </div>
                     <h1>André Albuquerque</h1>
                 </div>

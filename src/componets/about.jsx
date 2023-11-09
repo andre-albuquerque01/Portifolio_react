@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 function About() {
     return (
         <section className="border border-t-2 border-b-0 sm:h-screen" id="about">
@@ -12,12 +13,27 @@ function About() {
             </div>
             <div className="max-sm:block sm:flex mt-20 justify-evenly ">
                 <div className="sm:w-2/5 space-y-3 mr-2 ml-2 text-justify">
-                    <h1 className="text-2xl">Get to know me!</h1>
-                    <p>A full-stack developer focused on web applications, building web applications to facilitate life.</p>
-                    <p>I also study Systems Analysis and Development, and I seek a lot of knowledge in web applications to enhance my job. I enjoy being a developer.</p>
-                    <p>I am open to job opportunities where I can contribute, learn, and grow. If you have a good opportunity that matches my skills and experience, then don't hesitate to contact me.</p>
+                    <div className="space-y-2">
+                        <h1 className="text-2xl">Get to know me!</h1>
+                        <p>A full-stack developer focused on web applications, building web applications to facilitate life.</p>
+                        <p>I also study Systems Analysis and Development, and I seek a lot of knowledge in web applications to enhance my job. I enjoy being a developer.</p>
+                        <p>I am open to job opportunities where I can contribute, learn, and grow. If you have a good opportunity that matches my skills and experience, then don't hesitate to contact me.</p>
+                    </div>
+                    <div className="space-y-2 mr-2">
+                        <h1 className="text-2xl">Experience</h1>
+                        <div>
+                            <p>Internship at Caixa Economica - Testing assistant - 12/2022 - 08/2023</p>
+                            <p className="text-justify ml-8">
+                                During my internship at Caixa Econômica, I worked as a test assistant, actively contributing to the development team. My journey was from December 2022 to August 2023, during which I gained valuable insights and developed practical skills in the field of software testing and quality assurance.
+                            </p>
+                        </div>
+                        <div>
+                            <p>Internship at Public Defender's Office - Front-end Developer - 08/2023 - 12/2023</p>
+                            <p className="text-justify ml-8">During my internship at the Public Defender's Office, I worked as a Front-end Developer, actively contributing to the development team.</p>
+                        </div>
+                    </div>
                 </div>
-                <div className="sm:w-2/5 max-sm:w-full space-y-2 mb-10 mt-4">
+                <div className="sm:w-2/5 max-sm:w-11/12 space-y-2 mb-10 mt-4 ml-2">
                     <h1 className="text-2xl">My Skills</h1>
                     <div className="flex space-x-1 text-center flex-wrap">
                         <p className="px-4 py-2  bg-blue-500 text-white rounded-md">HTML</p>

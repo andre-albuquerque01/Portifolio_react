@@ -1,6 +1,7 @@
 import ifomeImg from '../img/ifome.png'
 import donation from '../img/donation.png'
 import bookStore from '../img/bookStore.png'
+import apiUser from '../img/ApiUser.png'
 import { Link } from 'react-router-dom'
 
 function Projects() {
@@ -15,8 +16,8 @@ function Projects() {
                     <p>Here you will find some of the personal projects that I created with each project containing its own case study</p>
                 </div>
             </div>
-            <div className='flex justify-center'>
-                <div className=' w-2/5'>
+            <div className='sm:flex justify-center'>
+                <div className=' sm:w-2/5'>
                     {/* IFOME */}
                     <div className="flex flex-col items-center text-center mt-20 space-y-2">
                         <div className="flex justify-center">
@@ -47,7 +48,7 @@ function Projects() {
                     </div>
                     {/* BookStore */}
                     <div className="flex flex-col items-center text-center mt-20 space-y-2">
-                        <div className="flex justify-center w-2/5">
+                    <div className="flex justify-center">
                             <img src={bookStore} alt="tela do projeto" className="w-80" />
                         </div>
                         <div className="w-2/3 space-y-4">
@@ -61,17 +62,17 @@ function Projects() {
                 </div>
 
                 {/* Second part */}
-                <div className='w-2/5'>
-                    {/* IFOME */}
+                <div className='sm:w-2/5'>
+                    {/* ApiUser */}
                     <div className="flex flex-col items-center text-center mt-20 space-y-2">
-                        <div className="flex justify-center w-2/5">
-                            <img src={ifomeImg} alt="tela do projeto" className="w-80" />
+                        <div className="flex justify-center">
+                            <img src={apiUser} alt="tela do projeto" className="w-80" />
                         </div>
                         <div className="w-2/3 space-y-4">
-                            <h1 className='text-xl'>Ifome</h1>
-                            <p className='text-center'>A case study for the implementation of a digital menu, as with the advancement of technology, there is a need to innovate.</p>
+                            <h1 className='text-xl'>Api User</h1>
+                            <p className='text-center'>A study on how to consume APIs and create an API using Spring Boot with MongoDB.</p>
                             <div className="justify-start">
-                                <Link to="/ifome" className="px-4 py-2  bg-blue-500 text-white rounded-md hover:bg-blue-600">Ifome</Link>
+                                <Link to="/apiUser" className="px-4 py-2  bg-blue-500 text-white rounded-md hover:bg-blue-600">Api User</Link>
 
                             </div>
                         </div>
@@ -91,7 +92,7 @@ function Projects() {
                     </div>
                     {/* BookStore */}
                     <div className="flex flex-col items-center text-center mt-20 space-y-2">
-                        <div className="flex justify-center w-2/5">
+                        <div className="flex justify-center">
                             <img src={bookStore} alt="tela do projeto" className="w-80" />
                         </div>
                         <div className="w-2/3 space-y-4">
