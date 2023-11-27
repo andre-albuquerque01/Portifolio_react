@@ -13,13 +13,16 @@ function Projects() {
                 </div>
                 <div className="border-t-4 rounded-sm border-blue-500 w-16 mx-auto my-4 "></div>
                 <div className="mt-5">
-                    <p>Here you will find some of the personal projects that I created with each project containing its own case study</p>
+                    <p>Here you will find some of the principal personal projects that I have created</p>
                 </div>
             </div>
             <div className='sm:flex justify-center'>
                 <div className=' sm:w-2/5'>
                     {/* IFOME */}
-                    <div className="flex flex-col items-center text-center mt-20 space-y-2">
+                    <div className="text-center mt-10">
+                        <h1 className='font-medium'>Case study</h1>
+                    </div>
+                    <div className="flex flex-col items-center text-center mt-10 space-y-2">
                         <div className="flex justify-center">
                             <img src={ifomeImg} alt="tela do projeto" className="w-80" />
                         </div>
@@ -48,7 +51,7 @@ function Projects() {
                     </div>
                     {/* BookStore */}
                     <div className="flex flex-col items-center text-center mt-20 space-y-2">
-                    <div className="flex justify-center">
+                        <div className="flex justify-center">
                             <img src={bookStore} alt="tela do projeto" className="w-80" />
                         </div>
                         <div className="w-2/3 space-y-4">
@@ -63,8 +66,11 @@ function Projects() {
 
                 {/* Second part */}
                 <div className='sm:w-2/5'>
+                    <div className="text-center mt-10">
+                        <h1 className='font-medium'>Principal projects</h1>
+                    </div>
                     {/* ApiUser */}
-                    <div className="flex flex-col items-center text-center mt-20 space-y-2">
+                    <div className="flex flex-col items-center text-center mt-10 space-y-2">
                         <div className="flex justify-center">
                             <img src={apiUser} alt="tela do projeto" className="w-80" />
                         </div>
@@ -104,6 +110,11 @@ function Projects() {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className='mt-10 underline text-center'>
+                <a href="https://github.com/andre-albuquerque01" target="_blank" rel="noopener noreferrer" className="text-orange-500">
+                    More projects
+                </a>
             </div>
         </section>
     )

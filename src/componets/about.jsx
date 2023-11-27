@@ -43,9 +43,14 @@ function About() {
                     </div>
                     <div className="flex space-x-1 text-center flex-wrap">
                         <p className="px-4 py-2  bg-blue-500 text-white rounded-md">PHP</p>
-                        <p className="px-4 py-2  bg-blue-500 text-white rounded-md">Python</p>
+                        <p className="px-4 py-2  bg-blue-500 text-white rounded-md">Java</p>
                         <p className="px-4 py-2  bg-blue-500 text-white rounded-md">Laravel</p>
                         <p className="px-4 py-2  bg-blue-500 text-white rounded-md">SQL</p>
+                    </div>
+                    <div className="flex space-x-1 text-center flex-wrap">
+                        <p className="px-4 py-2  bg-blue-500 text-white rounded-md">Sprong Boot</p>
+                        <p className="px-4 py-2  bg-blue-500 text-white rounded-md">MongoDB</p>
+                        <p className="px-4 py-2  bg-blue-500 text-white rounded-md">Python</p>
                     </div>
                     <div className="flex space-x-1 text-center flex-wrap">
                         <p className="px-4 py-2  bg-blue-500 text-white rounded-md">Git/GitHub</p>
