@@ -2,6 +2,7 @@ import ifomeImg from '../img/ifome.png'
 import donation from '../img/donation.png'
 import bookStore from '../img/bookStore.png'
 import apiUser from '../img/ApiUser.png'
+import managementImg from '../img/Gerenciamento.png'
 import { Link } from 'react-router-dom'
 
 function Projects() {
@@ -86,13 +87,13 @@ function Projects() {
                     {/* Donation */}
                     <div className="flex flex-col items-center text-center mt-20 space-y-2">
                         <div className="flex justify-center">
-                            <img src={donation} alt="tela do projeto" className="w-80" />
+                            <img src={managementImg} alt="tela do projeto" className="w-80" />
                         </div>
                         <div className="w-2/3 space-y-4">
-                            <h1 className='text-xl'>Donation</h1>
-                            <p className='text-center'>As technology advances, there is a growing need to innovate in the implementation of NGO donation processes, making it a case study.</p>
+                            <h1 className='text-xl'>Operational Management</h1>
+                            <p className='text-center'>Operational Management of companies providing outsourced labor services.</p>
                             <div className="">
-                                <Link to='/donation' className="px-4 py-2  bg-blue-500 text-white rounded-md hover:bg-blue-600">Donation</Link>
+                                <Link to='/management' className="px-4 py-2  bg-blue-500 text-white rounded-md hover:bg-blue-600">Operational Management</Link>
                             </div>
                         </div>
                     </div>

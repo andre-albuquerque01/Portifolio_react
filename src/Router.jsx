@@ -6,6 +6,7 @@ import Layout from './componets/layout/layout'
 import LayoutMain from './componets/layout/layoutMain'
 import ApiUser from './componets/projects/apiUser'
 import { useEffect } from 'react'
+import { Management } from './componets/projects/Management'
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -34,6 +35,7 @@ function Router() {
         <Route path="/donation" element={<Donation />}></Route>
         <Route path="/bookstore" element={<BookStore />}></Route>
         <Route path="/apiuser" element={<ApiUser />}></Route>
+        <Route path="/management" element={<Management />}></Route>
       </Route>
     </Routes>
   )
