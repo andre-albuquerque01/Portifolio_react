@@ -16,7 +16,7 @@ function About() {
                     <div className="space-y-2">
                         <h1 className="text-2xl">Get to know me!</h1>
                         <p>A full-stack developer focused on web applications, building web applications to facilitate life.</p>
-                        <p>I also study Systems Analysis and Development, and I seek a lot of knowledge in web applications to enhance my job. I enjoy being a developer.</p>
+                        <p> I am currently studying full stack development, constantly seeking to expand my knowledge in web applications to enhance my skills. I find great joy in being a developer.</p>
                         <p>I am open to job opportunities where I can contribute, learn, and grow. If you have a good opportunity that matches my skills and experience, then don't hesitate to contact me.</p>
                     </div>
                     <div className="space-y-2 mr-2">
