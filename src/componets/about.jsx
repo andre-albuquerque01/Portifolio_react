@@ -22,14 +22,14 @@ function About() {
                     <div className="space-y-2 mr-2">
                         <h1 className="text-2xl">Experience</h1>
                         <div>
+                            <p>Internship at Public Defender's Office - Front-end Developer - 08/2023 - 12/2023</p>
+                            <p className="text-justify ml-8">During my internship at the Public Defender's Office, I worked as a Front-end Developer, actively contributing to the development team.</p>
+                        </div>
+                        <div>
                             <p>Internship at Caixa Economica - Testing assistant - 12/2022 - 08/2023</p>
                             <p className="text-justify ml-8">
                                 During my internship at Caixa Econômica, I worked as a test assistant, actively contributing to the development team. My journey was from December 2022 to August 2023, during which I gained valuable insights and developed practical skills in the field of software testing and quality assurance.
                             </p>
-                        </div>
-                        <div>
-                            <p>Internship at Public Defender's Office - Front-end Developer - 08/2023 - 12/2023</p>
-                            <p className="text-justify ml-8">During my internship at the Public Defender's Office, I worked as a Front-end Developer, actively contributing to the development team.</p>
                         </div>
                     </div>
                 </div>
