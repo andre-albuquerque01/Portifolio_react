@@ -14,7 +14,7 @@ function NavBar() {
                 <div className="flex justify-center items-center text-center w-1/4 max-sm:w-full">
                     <h1 className="font-bold max-sm:mt-1">André Albuquerque</h1>
                 </div>
-                <div className="sm:w-2/5 max-sm:w-full">
+                <div className="w-1/4 md:w-2/5 max-sm:w-full">
                     <ul className="flex space-x-3 max-sm:justify-center max-sm:mt-1">
                         <li><a href={`${pathName}#home`}>HOME</a></li>
                         <li><a href={`${pathName}#about`}>ABOUT</a></li>
