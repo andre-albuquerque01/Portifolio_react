@@ -11,7 +11,7 @@ function About() {
                     <p>Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology.</p>
                 </div>
             </div>
-            <div className="max-sm:block sm:flex mt-20 justify-evenly ">
+            <div className="max-sm:block sm:flex mt-20 justify-evenly mb-40">
                 <div className="sm:w-2/5 space-y-3 mr-2 ml-2 text-justify">
                     <div className="space-y-2">
                         <h1 className="text-2xl">Get to know me!</h1>
@@ -35,31 +35,33 @@ function About() {
                 </div>
                 <div className="sm:w-2/5 max-sm:w-11/12 space-y-2 mb-10 mt-4 ml-2">
                     <h1 className="text-2xl">My Skills</h1>
-                    <div className="flex space-x-1 text-center flex-wrap">
+                    <div className="flex space-x-1 text-center items-center flex-wrap max-sm:h-24 max-sm:items-center">
                         <p className="px-4 py-2  bg-blue-500 text-white rounded-md">HTML</p>
                         <p className="px-4 py-2  bg-blue-500 text-white rounded-md">CSS</p>
                         <p className="px-4 py-2  bg-blue-500 text-white rounded-md">JavaScript</p>
                         <p className="px-4 py-2  bg-blue-500 text-white rounded-md">React</p>
                     </div>
-                    <div className="flex space-x-1 text-center flex-wrap">
+                    <div className="flex space-x-1 text-center flex-wrap max-sm:h-24 max-sm:items-center">
                         <p className="px-4 py-2  bg-blue-500 text-white rounded-md">PHP</p>
                         <p className="px-4 py-2  bg-blue-500 text-white rounded-md">Java</p>
                         <p className="px-4 py-2  bg-blue-500 text-white rounded-md">Laravel</p>
                         <p className="px-4 py-2  bg-blue-500 text-white rounded-md">SQL</p>
                     </div>
-                    <div className="flex space-x-1 text-center flex-wrap">
+                    <div className="flex space-x-1 text-center flex-wrap max-sm:h-24 max-sm:items-center">
                         <p className="px-4 py-2  bg-blue-500 text-white rounded-md">Spring Boot</p>
                         <p className="px-4 py-2  bg-blue-500 text-white rounded-md">NextJs</p>
                         <p className="px-4 py-2  bg-blue-500 text-white rounded-md">MongoDB</p>
                         <p className="px-4 py-2  bg-blue-500 text-white rounded-md">Python</p>
                     </div>
-                    <div className="flex space-x-1 text-center flex-wrap">
+                    <div className="flex space-x-1 text-center flex-wrap max-sm:h-24 max-sm:items-center">
                         <p className="px-4 py-2  bg-blue-500 text-white rounded-md">Git/GitHub</p>
                         <p className="px-4 py-2  bg-blue-500 text-white rounded-md">Figma</p>
                         <p className="px-4 py-2  bg-blue-500 text-white rounded-md">VS code</p>
                         <p className="px-4 py-2  bg-blue-500 text-white rounded-md">Linux</p>
                     </div>
-                    <div className="flex space-x-1 text-center flex-wrap">
+                    <div className="flex space-x-1 text-center flex-wrap max-sm:h-24 max-sm:items-center">
+                        <p className="px-4 py-2  bg-blue-500 text-white rounded-md">Tailwind</p>
+                        <p className="px-4 py-2  bg-blue-500 text-white rounded-md">Bootstrap</p>
                         <p className="px-4 py-2  bg-blue-500 text-white rounded-md">Designer UX</p>
                         <p className="px-4 py-2  bg-blue-500 text-white rounded-md">Scrum</p>
                     </div>

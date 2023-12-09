@@ -3,6 +3,7 @@ import donation from '../img/donation.png'
 import bookStore from '../img/bookStore.png'
 import apiUser from '../img/ApiUser.png'
 import managementImg from '../img/Gerenciamento.png'
+import construction from '../img/comingSoon.jpg'
 import { Link } from 'react-router-dom'
 
 function Projects() {
@@ -100,14 +101,12 @@ function Projects() {
                     {/* BookStore */}
                     <div className="flex flex-col items-center text-center mt-20 space-y-2">
                         <div className="flex justify-center">
-                            <img src={bookStore} alt="tela do projeto" className="w-80" />
+                            <img src={construction} alt="tela do projeto" className="w-80 h-44" />
                         </div>
                         <div className="w-2/3 space-y-4">
-                            <h1 className='text-xl'>BookStore</h1>
-                            <p className='text-center'>A case study for a bookstore, aiming to transform the way books are accessed by transitioning to a digital format, eliminating the need for a physical book inventory available for immediate withdrawal.</p>
-                            <div className="justify-start">
-                                <Link to='/bookstore' className="px-4 py-2  bg-blue-500 text-white rounded-md hover:bg-blue-600">BookStore</Link>
-                            </div>
+                            <h1 className='text-xl'>In progress...</h1>
+                            <p className='text-center'>Coming soon...</p>
+
                         </div>
                     </div>
                 </div>
