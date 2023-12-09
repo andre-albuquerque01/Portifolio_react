@@ -18,7 +18,7 @@ function Projects() {
                     <p>Here you will find some of the principal personal projects that I have created</p>
                 </div>
             </div>
-            <div className='sm:flex justify-center'>
+            <div className='sm:flex max-md:flex-col max-md:items-center justify-center'>
                 <div className=' sm:w-2/5'>
                     {/* IFOME */}
                     <div className="text-center mt-10">
@@ -94,7 +94,7 @@ function Projects() {
                             <h1 className='text-xl'>Operational Management</h1>
                             <p className='text-center'>Operational Management of companies providing outsourced labor services.</p>
                             <div className="">
-                                <Link to='/management' className="px-4 py-2  bg-blue-500 text-white rounded-md hover:bg-blue-600">Operational Management</Link>
+                                <Link to='/management' className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 md:px-2">Operational Management</Link>
                             </div>
                         </div>
                     </div>
