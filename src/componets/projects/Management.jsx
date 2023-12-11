@@ -270,7 +270,7 @@ export const Management = () => {
                             </div>
                             <div className="text-lg">
                                 <h2 className="font-semibold">Apresentação das telas</h2>
-                                <p>Telas de Perfil; Posto; Escala; e, Alocação, possuím CRUD completo</p>
+                                <p>As telas de Perfil, Posto, Escala e Alocação oferecem funcionalidades completas de CRUD.</p>
                             </div>
                             <div className='space-y-5'>
                                 <div>
