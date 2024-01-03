@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 function About() {
     return (
-        <section className="border border-t-2 border-b-0 sm:h-screen md:h-auto" id="about">
+        <section className="border border-t-2 border-b-0 sm:min-h-[100%] md:h-screen" id="about">
             <div className="text-center mt-20">
                 <div className="text-4xl">
                     <h1>ABOUT ME</h1>
@@ -35,7 +35,7 @@ function About() {
                 </div>
                 <div className="sm:w-2/5 max-sm:w-11/12 space-y-2 md:flex-col mb-10 mt-4 ml-2">
                     <h1 className="text-2xl">My Skills</h1>
-                    <div className="flex space-x-1 max-sm:h-24 min-w-[250px] max-w-[450px] max-sm:items-center flex-wrap gap-4">
+                    <div className="flex space-x-1 min-w-[250px] max-w-[450px] max-sm:items-center flex-wrap gap-4">
                         <p className="px-4 py-2  bg-blue-500 text-white rounded-md">Html</p>
                         <p className="px-4 py-2  bg-blue-500 text-white rounded-md">CSS</p>
                         <p className="px-4 py-2  bg-blue-500 text-white rounded-md">JavaScript</p>

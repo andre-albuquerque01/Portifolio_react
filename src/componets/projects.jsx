@@ -19,7 +19,7 @@ function Projects() {
                 </div>
             </div>
             <div className='sm:flex max-md:flex-col max-md:items-center justify-center'>
-                <div className=' sm:w-2/5'>
+                <div className='sm:w-2/5'>
                     {/* IFOME */}
                     <div className="text-center mt-10">
                         <h1 className='font-medium'>Case study</h1>
@@ -28,7 +28,7 @@ function Projects() {
                         <div className="flex justify-center">
                             <img src={ifomeImg} alt="tela do projeto" className="w-80" />
                         </div>
-                        <div className="w-2/3 space-y-4">
+                        <div className="w-[100%] md:w-96 space-y-4">
                             <h1 className='text-xl'>Ifome</h1>
                             <p className='text-center'>A case study for the implementation of a digital menu, as with the advancement of technology, there is a need to innovate.</p>
                             <div className="justify-start">
@@ -43,7 +43,7 @@ function Projects() {
                         <div className="flex justify-center">
                             <img src={donation} alt="tela do projeto" className="w-80" />
                         </div>
-                        <div className="w-3/4 space-y-4">
+                        <div className="w-[100%] md:w-96 space-y-4">
                             <h1 className='text-xl'>Donation</h1>
                             <p className='text-center'>As technology advances, there is a growing need to innovate in the implementation of NGO donation processes, making it a case study.</p>
                             <div className="">
@@ -56,7 +56,7 @@ function Projects() {
                         <div className="flex justify-center">
                             <img src={bookStore} alt="tela do projeto" className="w-80" />
                         </div>
-                        <div className="w-2/3 space-y-4">
+                        <div className="w-[100%] md:w-96 space-y-4">
                             <h1 className='text-xl'>BookStore</h1>
                             <p className='text-center'>A case study for a bookstore, aiming to transform the way books are accessed by transitioning to a digital format, eliminating the need for a physical book inventory available for immediate withdrawal.</p>
                             <div className="justify-start">
@@ -76,7 +76,7 @@ function Projects() {
                         <div className="flex justify-center">
                             <img src={apiUser} alt="tela do projeto" className="w-80" />
                         </div>
-                        <div className="w-2/3 space-y-4">
+                        <div className="w-[100%] md:w-96 space-y-4">
                             <h1 className='text-xl'>Api User</h1>
                             <p className='text-center'>A study on how to consume APIs and create an API using Spring Boot with MongoDB.</p>
                             <div className="justify-start">
@@ -90,7 +90,7 @@ function Projects() {
                         <div className="flex justify-center">
                             <img src={managementImg} alt="tela do projeto" className="w-80" />
                         </div>
-                        <div className="w-2/3 space-y-4">
+                        <div className="w-[100%] md:w-96 space-y-4">
                             <h1 className='text-xl'>Operational Management</h1>
                             <p className='text-center'>Operational Management of companies providing outsourced labor services.</p>
                             <div className="">
@@ -103,7 +103,7 @@ function Projects() {
                         <div className="flex justify-center">
                             <img src={takeThePhone} alt="tela do projeto" className="w-80 h-44" />
                         </div>
-                        <div className="w-2/3 space-y-4">
+                        <div className="w-[100%] md:w-96 space-y-4">
                             <h1 className='text-xl'>E-commerce for restaurants</h1>
                             <p className='text-center'>Digital menu with online ordering.</p>
                             <div className="">
