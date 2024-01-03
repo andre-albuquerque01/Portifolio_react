@@ -3,7 +3,7 @@ import donation from '../img/donation.png'
 import bookStore from '../img/bookStore.png'
 import apiUser from '../img/ApiUser.png'
 import managementImg from '../img/Gerenciamento.png'
-import construction from '../img/comingSoon.jpg'
+import takeThePhone from '../img/takeThePhone.jpg'
 import { Link } from 'react-router-dom'
 
 function Projects() {
@@ -101,12 +101,14 @@ function Projects() {
                     {/* BookStore */}
                     <div className="flex flex-col items-center text-center mt-20 space-y-2">
                         <div className="flex justify-center">
-                            <img src={construction} alt="tela do projeto" className="w-80 h-44" />
+                            <img src={takeThePhone} alt="tela do projeto" className="w-80 h-44" />
                         </div>
                         <div className="w-2/3 space-y-4">
-                            <h1 className='text-xl'>In progress...</h1>
-                            <p className='text-center'>Coming soon...</p>
-
+                            <h1 className='text-xl'>E-commerce for restaurants</h1>
+                            <p className='text-center'>Digital menu with online ordering.</p>
+                            <div className="">
+                                <Link to='/takeThePhone' className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 md:px-2">E-commerce</Link>
+                            </div>
                         </div>
                     </div>
                 </div>
