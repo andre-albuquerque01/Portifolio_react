@@ -24,7 +24,7 @@ function Projects() {
                     <div className="text-center mt-10">
                         <h1 className='font-medium'>Case study</h1>
                     </div>
-                    <div className="flex flex-col items-center text-center mt-10 space-y-2">
+                    <div className="flex flex-col items-center text-center mt-10 space-y-2 min-h-[350px]">
                         <div className="flex justify-center">
                             <img src={ifomeImg} alt="tela do projeto" className="w-80" />
                         </div>
@@ -39,7 +39,7 @@ function Projects() {
                     </div>
 
                     {/* Donation */}
-                    <div className="flex flex-col items-center text-center mt-20 space-y-2">
+                    <div className="flex flex-col items-center text-center mt-20 space-y-2 min-h-[350px]">
                         <div className="flex justify-center">
                             <img src={donation} alt="tela do projeto" className="w-80" />
                         </div>
@@ -52,7 +52,7 @@ function Projects() {
                         </div>
                     </div>
                     {/* BookStore */}
-                    <div className="flex flex-col items-center text-center mt-20 space-y-2">
+                    <div className="flex flex-col items-center text-center mt-20 space-y-2 min-h-[350px]">
                         <div className="flex justify-center">
                             <img src={bookStore} alt="tela do projeto" className="w-80" />
                         </div>
@@ -72,7 +72,7 @@ function Projects() {
                         <h1 className='font-medium'>Principal projects</h1>
                     </div>
                     {/* ApiUser */}
-                    <div className="flex flex-col items-center text-center mt-10 space-y-2">
+                    <div className="flex flex-col items-center text-center mt-10 space-y-2 min-h-[350px]">
                         <div className="flex justify-center">
                             <img src={apiUser} alt="tela do projeto" className="w-80" />
                         </div>
@@ -86,7 +86,7 @@ function Projects() {
                         </div>
                     </div>
                     {/* Donation */}
-                    <div className="flex flex-col items-center text-center mt-20 space-y-2">
+                    <div className="flex flex-col items-center text-center mt-20 space-y-2 min-h-[350px]">
                         <div className="flex justify-center">
                             <img src={managementImg} alt="tela do projeto" className="w-80" />
                         </div>
@@ -99,7 +99,7 @@ function Projects() {
                         </div>
                     </div>
                     {/* BookStore */}
-                    <div className="flex flex-col items-center text-center mt-20 space-y-2">
+                    <div className="flex flex-col items-center text-center mt-20 space-y-2 min-h-[350px]">
                         <div className="flex justify-center">
                             <img src={takeThePhone} alt="tela do projeto" className="w-80 h-44" />
                         </div>
