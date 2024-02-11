@@ -1,4 +1,4 @@
-import ifomeImg from '../img/ifome.png'
+import capaEvent from '../img/capaEvent.png'
 import donation from '../img/donation.png'
 import bookStore from '../img/bookStore.png'
 import apiUser from '../img/ApiUser.png'
@@ -21,18 +21,18 @@ function Projects() {
             <div className='sm:flex max-md:flex-col max-md:items-center justify-center'>
                 <div className='sm:w-2/5'>
                     {/* IFOME */}
-                    <div className="text-center mt-10">
+                    {/* <div className="text-center mt-10">
                         <h1 className='font-medium'>Case study</h1>
-                    </div>
+                    </div> */}
                     <div className="flex flex-col items-center text-center mt-10 space-y-2 min-h-[350px]">
                         <div className="flex justify-center">
-                            <img src={ifomeImg} alt="tela do projeto" className="w-80" />
+                            <img src={capaEvent} alt="tela do projeto" className="w-80" />
                         </div>
                         <div className="w-[100%] md:w-96 space-y-4">
-                            <h1 className='text-xl'>Ifome</h1>
-                            <p className='text-center'>A case study for the implementation of a digital menu, as with the advancement of technology, there is a need to innovate.</p>
+                            <h1 className='text-xl'>Event</h1>
+                            <p className='text-center'>Events website, for a specific organization, to promote its events.</p>
                             <div className="justify-start">
-                                <Link to="/ifome" className="px-4 py-2  bg-blue-500 text-white rounded-md hover:bg-blue-600">IFOME</Link>
+                                <Link to="/events" className="px-4 py-2  bg-blue-500 text-white rounded-md hover:bg-blue-600">EVENTS</Link>
 
                             </div>
                         </div>
