@@ -18,7 +18,7 @@ function Projects() {
                     <p>Here you will find some of the principal personal projects that I have created</p>
                 </div>
             </div>
-            <div className='sm:flex max-md:flex-col max-md:items-center justify-center'>
+            <div className='sm:flex sm:flex-col md:items-center lg:flex-row md:flex-col max-md:items-center justify-center'>
                 <div className='sm:w-2/5'>
                     {/* IFOME */}
                     {/* <div className="text-center mt-10">

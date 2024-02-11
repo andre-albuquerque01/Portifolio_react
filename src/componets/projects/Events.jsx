@@ -1,10 +1,13 @@
+/* eslint-disable react/no-unescaped-entities */
 import mer from '../../img/imgEvents/mer.png'
 import dashboard from '../../img/imgEvents/dashboard.png'
 import event from '../../img/imgEvents/event.png'
 import index from '../../img/imgEvents/index.png'
 import painel from '../../img/imgEvents/painel.png'
+import painelAdm from '../../img/imgEvents/painelAdm.png'
 import painelParticipando2 from '../../img/imgEvents/painelParticipando2.png'
 import search from '../../img/imgEvents/search.png'
+import listP from '../../img/imgEvents/listDeParticipante.png'
 
 export const Events = () => {
     return (
@@ -198,6 +201,14 @@ export const Events = () => {
                                     <div className="">
                                         <p className='mt-3 mb-1'>Opções</p>
                                         <img src={painel} alt="Opções" />
+                                    </div>
+                                    <div className="">
+                                        <p className='mt-3 mb-1'>Opções do administrador</p>
+                                        <img src={painelAdm} alt="Opções" />
+                                    </div>
+                                    <div className="">
+                                        <p className='mt-3 mb-1'>Lista de participantes</p>
+                                        <img src={listP} alt="Lista de participante" />
                                     </div>
                                 </div>
                             </div>
