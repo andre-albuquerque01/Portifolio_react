@@ -2,6 +2,10 @@ import iconsGitHub from '../img/iconsGithub.png'
 import iconsLinjedin from '../img/linkedin.svg'
 
 export default function Footer() {
+    function data(){
+        const data = new Date()
+        return data.getFullYear;
+    }
     return (
         <footer>
             <section className="bg-black h-full mt-10 bottom-0" id='contact'>
@@ -23,7 +27,7 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="border-t-2 rounded-sm border-white w-1/2 mx-auto my-4 mt-8"></div>
-                <div className='text-white text-center text-xs'>&copy;Copyright 2023. Feito por Take the Phone</div>
+                <div className='text-white text-center text-xs'>&copy;Copyright {data()}. Feito por Take the Phone</div>
             </section>
         </footer>
     )
