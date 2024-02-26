@@ -1,7 +1,7 @@
 import iconsGitHub from '../img/iconsGithub.png'
 import iconsLinjedin from '../img/linkedin.svg'
 
-function Footer() {
+export default function Footer() {
     return (
         <footer>
             <section className="bg-black h-full mt-10 bottom-0" id='contact'>
@@ -28,5 +28,3 @@ function Footer() {
         </footer>
     )
 }
-
-export default Footer
